@@ -39,32 +39,38 @@ import {
 export const navigation = [
   {
     id: "0",
+    title: "Services",
+    url: "#services",
+  },
+  {
+    id: "1",
     title: "Features",
     url: "#features",
   },
   {
-    id: "1",
+    id: "2",
     title: "Pricing",
     url: "#pricing",
   },
   {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
     id: "3",
-    title: "Roadmap",
+    title: "About us",
     url: "#roadmap",
   },
   {
     id: "4",
+    title: "How to Search",
+    url: "#how-to-use",
+  },
+  
+  {
+    id: "5",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "6",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -133,16 +139,33 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Services Offered:",
+    text: "We, Exel Leads, specialize in providing lead generation services online, assisting businesses in finding unlimited leads to grow their ventures. Our services includes leads generation through online with our specific searches from different sources",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Lead Quality and Guarantee:",
+    text: "While we strive to provide high-quality leads, we cannot guarantee the conversion of leads into paying customers. We commit to delivering leads that meet our quality standards, sourced through legitimate means and validated to the best of our abilities."
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Service Modifications and Termination:",
+    text: "We reserve the right to modify our services, terms, or pricing with prior notice. Clients have the right to terminate services based on agreed-upon terms, subject to any applicable cancellation fees."
+  },
+  {
+    id: "3",
+    title: "Client Responsibilities:",
+    text: "Clients are expected to provide accurate information and cooperate in the lead generation process by supplying necessary data or insights to optimize the service. Any delay or failure to provide essential information may affect service delivery timelines. 3. Lead Quality and Guarantee."
+  },
+  {
+    id: "4",
+    title: "Data Confidentiality and Usage:",
+    text: "All client information, data, and leads obtained during our services will be handled with the utmost confidentiality. However, we reserve the right to use aggregated, anonymized data for analytical or marketing purposes."
+  },
+  {
+    id: "5",
+    title: "Limitation of Liability:",
+    text: "While we make every effort to provide accurate and reliable services, we shall not be held liable for any direct or indirect damages, losses, or disruptions incurred by clients using our services"
   },
 ];
 
@@ -244,16 +267,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Our Mission:",
+    text: "Our mission is clear: to be the catalyst for your business's expansion. We understand that a constant stream of quality leads is the lifeblood of any successful enterprise. Hence, our focus is on delivering customized and scalable lead generation strategies that propel your business forward.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "What Sets Us Apart:",
+    text: "At the core of our approach lies a dedication to harnessing cutting-edge technology coupled with deep industry insights. Our team comprises experts well-versed in the nuances of lead generation, utilizing state-of-the-art tools and methodologies to unearth potential leads across diverse industries.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,37 +284,22 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "How We Help You Grow:",
+    text: "We believe that the growth of your business is our success metric. By leveraging our expertise in finding leads online, we provide you with access to an extensive pool of potential Our focus is not just on quantity but on the quality and relevance of the leads we deliver.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Get Started with Exel Leads:",
+    text: "Are you ready to take your business to new heights? Partner with us and unlock a world of unlimited business leads. Let's embark on this journey together towards sustainable growth and prosperity",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  
 ];
 
 export const socials = [

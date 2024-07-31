@@ -22,10 +22,32 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+          {/* Search Column */}
+          <div className="flex flex-col items-center mb-8">
+            <div className="flex">
+              <input
+                type="text"
+                placeholder="Enter Position"
+                className="border rounded-l-full py-2 px-4 w-64"
+              />
+              <input
+                type="text"
+                placeholder="Enter the City"
+                className="border-t border-b border-r rounded-r-full py-2 px-4 w-64"
+              />
+              <button className="bg--500 text-white py-2 px-6 rounded-full ml-4 border border-white">
+                Search
+              </button>
+            </div>
+            <button className="bg--500 text-white py-2 px-6 rounded-full mt-4 border border-white">
+              Sign Up and Get amazing quality leads!!!!
+            </button>
+          </div>
+
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            Empowering Businesses&nbsp; with {` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              Unlimited Leads!!{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,13 +58,50 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            At Exel Leads, we are passionate about empowering businesses to
+            thrive by providing unparalleled lead generation solutions. With a
+            steadfast commitment to excellence and innovation, we specialize in
+            finding unlimited business leads that drive growth and success.
           </p>
           <Button href="/pricing" white>
-            Get started
+            Get Quality leads
           </Button>
+
+          {/* Create Account Div */}
+          <div className="create-account-container bg-black shadow-lg rounded-lg p-8 mt-8">
+            <p className="text-lg font-semibold">Create an account</p>
+            <button className="bg-purple text-white border border-gray-300 py-2 px-6 rounded-full">
+              Sign Up Now
+            </button>
+            <p className="text-gray-600 mt-4">Empowering Businesses with Quality Leads!!!</p>
+            <div className="my-4 text-gray-600">or</div>
+            <button className="bg-purple text-white border border-gray-300 py-2 px-6 rounded-full">
+              See Our Pricing
+            </button>
+          </div>
+          <div className="stats-container text-center mt-8">
+  <div className="flex justify-center space-x-12">
+    <div className="text-center">
+      <p className="text-3xl font-bold">144K</p>
+      <p className="text-gray-600">DOWNLOADS</p>
+    </div>
+    <div className="text-center">
+      <p className="text-3xl font-bold">48.3K</p>
+      <p className="text-gray-600">USERS</p>
+    </div>
+    <div className="text-center">
+      <p className="text-3xl font-bold">12.9K</p>
+      <p className="text-gray-600">SUBSCRIBERS</p>
+    </div>
+    <div className="text-center">
+      <p className="text-3xl font-bold">24.5K</p>
+      <p className="text-gray-600">COOKIES</p>
+    </div>
+  </div>
+</div>
+
         </div>
+        
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
