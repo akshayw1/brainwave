@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import Payments from "./components/Payments"; // Import the new Payments component
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        <Payments /> 
         <Pricing />
         <Roadmap />
         <Footer />
